@@ -11,4 +11,9 @@ public class TestApi {
     public String home(){
         return "HOME PAGE!";
     }
+
+    @GetMapping("/home")
+    public String home2(){
+        return "HOME 2 PAGE!";
+    }
 }
