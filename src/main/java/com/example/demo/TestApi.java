@@ -18,7 +18,7 @@ public class TestApi {
     }
 
     @GetMapping("/home3")
-    public String home2(){
+    public String home3(){
         return "HOME 3 PAGE!";
     }
 }
