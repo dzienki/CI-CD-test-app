@@ -12,7 +12,7 @@ public class TestApi {
         return "HOME PAGE!";
     }
 
-    @GetMapping("/home")
+    @GetMapping("/home2")
     public String home2(){
         return "HOME 2 PAGE!";
     }
